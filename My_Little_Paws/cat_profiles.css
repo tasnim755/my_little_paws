@@ -1,0 +1,317 @@
+*{
+    color: rgb(54, 53, 51);
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+}
+
+.paws_heading{
+    color: rgb(54, 53, 51);
+    font-family: 'Roboto' sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-color:#d1c4ec;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    backdrop-filter: blur(0.4px);
+    background-color: #9b90b5;
+    border-bottom: 1px solid;
+    z-index: 1000;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nav-left-container{
+    display: flex;
+}
+
+.image{
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.paws_heading{
+    font-size: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-right-container{
+    margin-left: auto;
+}
+
+.nav-items-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-items-links{
+    text-decoration: none;
+}
+
+.nav-items-links:hover{
+    color:#2f2024
+}
+
+/* Background Styling */
+
+.miro{
+    background-color: #ffd7e8;
+    width: auto;
+    height: 600px;
+    border: 5px solid #d4b1c0;
+}
+.miro-inner-content{
+    /* width: 50%; */
+    margin: 0 auto;
+}
+
+.toro{
+    background-color: #f2c0ff;
+    width: auto;
+    height: 600px;
+    border: 5px solid #a17fa9;
+}
+
+.jerry{
+    background-color: #ab89bb; 
+    width: auto;
+    height: 600px;
+    border: 5px solid #7b669c;
+}
+
+.keli{
+    background-color: #b7a7e7; 
+    width: auto;
+    height: 600px;
+    border: 5px solid #927eb4; 
+}
+
+
+/* Background Styling */
+
+/* Miro*/
+
+.miro-content-heading{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    background-color: #d4b1c0;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 5px 500px auto 500px; */
+}
+
+.miro-image1{
+    margin-left: 300px;
+}
+
+.miro-image1,
+.miro-image{
+    width: 150px;
+    height: 250px;
+    border: 4px solid #d4b1c0;
+}
+
+.miro-details-list{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px ;
+    
+}
+.miro-list-name{
+    color:#522525;
+    font-weight: 700;
+}
+
+.miro-list-styling{
+    color:#522525;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: table;
+  }
+  
+  li {
+    display: table-row;
+  }
+  
+  b {
+    display: table-cell;
+    padding-right: 1em;
+  }
+
+  /* Toro */
+
+.toro-content-heading{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    background-color: #a17fa9;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 5px 500px auto 500px; */
+}
+  .toro-image1{
+    margin-left: 300px;
+}
+
+.toro-image1,
+.toro-image{
+    width: 150px;
+    height: 250px;
+    border: 4px solid #a17fa9;
+}
+
+.toro-details-list{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px ;
+    
+}
+.toro-list-name{
+    color:#522525;
+    font-weight: 700;
+}
+
+.toro-list-styling{
+    color:#522525;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: table;
+  }
+  
+  li {
+    display: table-row;
+  }
+  
+  b {
+    display: table-cell;
+    padding-right: 1em;
+  }
+
+
+/* Jerry */
+
+.jerry-content-heading{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    background-color: #7b669c;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 5px 500px auto 500px; */
+}
+  .jerry-image1{
+    margin-left: 300px;
+}
+
+.jerry-image1,
+.jerry-image{
+    width: 150px;
+    height: 250px;
+    border: 4px solid #7b669c;
+}
+
+.jerry-details-list{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px ;
+    
+}
+.jerry-list-name{
+    color:#472053;
+    font-weight: 700;
+}
+
+.jerry-list-styling{
+    color:#472053;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: table;
+  }
+  
+  li {
+    display: table-row;
+  }
+  
+  b {
+    display: table-cell;
+    padding-right: 1em;
+  }
+
+  /* keli */
+
+  .keli-content-heading{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    background-color: #927eb4; 
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 5px 500px auto 500px; */
+}
+
+.keli-image1{
+    margin-left: 300px;
+}
+
+.keli-image1,
+.keli-image{
+    width: 150px;
+    height: 250px;
+    border: 4px solid #927eb4; 
+}
+
+.keli-details-list{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px ;
+    
+}
+.keli-list-name{
+    color:#522525;
+    font-weight: 700;
+}
+
+.keli-list-styling{
+    color:#522525;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: table;
+  }
+  
+  li {
+    display: table-row;
+  }
+  
+  b {
+    display: table-cell;
+    padding-right: 1em;
+  }

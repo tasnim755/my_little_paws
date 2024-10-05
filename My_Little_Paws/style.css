@@ -1,0 +1,99 @@
+*{
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+body{
+    background-color:#A28089;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    backdrop-filter: blur(0.4px);
+    background-color: #7f636b;
+    border-bottom: 1px solid;
+    z-index: 1000;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nav-left-container{
+    display: flex;
+}
+
+.image{
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.paws_heading{
+    font-size: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-right-container{
+    margin-left: auto;
+}
+
+.nav-items-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-items-links{
+    text-decoration: none;
+}
+
+.nav-items-links:hover{
+    color:#2f2024
+}
+
+
+/* Hero Section */
+
+.hero-container{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.hero-image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+.hero-left{
+    width: 70%;
+}
+.hero-right{
+    width: 100%;
+}
+
+.hero-right{
+    margin-right: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Dancing Script", cursive;
+}

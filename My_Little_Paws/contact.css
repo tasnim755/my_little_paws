@@ -1,0 +1,88 @@
+*{
+    color: rgb(54, 53, 51);
+    font-family: 'Roboto' sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-color:#d4dfd4;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    backdrop-filter: blur(0.4px);
+    background-color: #7f8f7f;
+    border-bottom: 1px solid;
+    z-index: 1000;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nav-left-container{
+    display: flex;
+}
+
+.image{
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.paws_heading{
+    font-size: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-right-container{
+    margin-left: auto;
+}
+
+.nav-items-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-items-links{
+    text-decoration: none;
+}
+
+.nav-items-links:hover{
+    color:#2f2024
+}
+.cat-names{
+    display: flex;
+}
+
+/* Hero Section */
+.contact-container{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:80vh;
+}
+
+.contact-list{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.contact-type{
+    text-align:left;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Dancing Script", cursive;
+}
